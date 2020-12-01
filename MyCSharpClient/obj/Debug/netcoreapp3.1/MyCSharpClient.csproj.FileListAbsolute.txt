@@ -1,0 +1,13 @@
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\bin\Debug\netcoreapp3.1\MyCSharpClient.exe
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\bin\Debug\netcoreapp3.1\MyCSharpClient.deps.json
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\bin\Debug\netcoreapp3.1\MyCSharpClient.runtimeconfig.json
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\bin\Debug\netcoreapp3.1\MyCSharpClient.runtimeconfig.dev.json
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\bin\Debug\netcoreapp3.1\MyCSharpClient.dll
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\bin\Debug\netcoreapp3.1\MyCSharpClient.pdb
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\obj\Debug\netcoreapp3.1\MyCSharpClient.csprojAssemblyReference.cache
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\obj\Debug\netcoreapp3.1\MyCSharpClient.AssemblyInfoInputs.cache
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\obj\Debug\netcoreapp3.1\MyCSharpClient.AssemblyInfo.cs
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\obj\Debug\netcoreapp3.1\MyCSharpClient.csproj.CoreCompileInputs.cache
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\obj\Debug\netcoreapp3.1\MyCSharpClient.dll
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\obj\Debug\netcoreapp3.1\MyCSharpClient.pdb
+G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\MyCSharpClient\obj\Debug\netcoreapp3.1\MyCSharpClient.genruntimeconfig.cache
