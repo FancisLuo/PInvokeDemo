@@ -7,7 +7,8 @@ namespace MyCSharpClient
 {
     public class DLLInterface
     {
-        private const string DllName = @"G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\x64\Debug\CPPDemoDll.dll";
+        //private const string DllName = @"G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\x64\Debug\CPPDemoDll.dll";
+        private const string DllName = "CPPDemoDll.dll";
 
         [DllImport(DllName, EntryPoint = "Add")]
         private extern static int Add(int a, int b);

@@ -141,7 +141,8 @@
       <EnableUAC>false</EnableUAC>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(TargetPath) $(ProjectDir)..\MyConsoleApp\x64\Debug\$(TargetFileName) /y</Command>
+      <Command>copy $(TargetPath) $(ProjectDir)..\MyConsoleApp\x64\Debug\$(TargetFileName) /y
+copy $(TargetPath) $(ProjectDir)..\MyCSharpClient\bin\Debug\netcoreapp3.1\$(TargetFileName) /y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
