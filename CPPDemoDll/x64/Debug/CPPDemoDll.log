@@ -1,5 +1,8 @@
-﻿  DllInterface.cpp
-    正在创建库 G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\x64\Debug\CPPDemoDll.lib 和对象 G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\x64\Debug\CPPDemoDll.exp
-  CPPDemoDll.vcxproj -> G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\x64\Debug\CPPDemoDll.dll
+﻿  AppLaucher.cpp
+  DllInterface.cpp
+  Logger.cpp
+  正在生成代码...
+    正在创建库 G:\TestSpace\CPPTest\workspace\trunk\x64\Debug\CPPDemoDll.lib 和对象 G:\TestSpace\CPPTest\workspace\trunk\x64\Debug\CPPDemoDll.exp
+  CPPDemoDll.vcxproj -> G:\TestSpace\CPPTest\workspace\trunk\x64\Debug\CPPDemoDll.dll
   已复制         1 个文件。
   已复制         1 个文件。

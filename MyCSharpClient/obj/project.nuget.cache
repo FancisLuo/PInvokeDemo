@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ySrhHjfYc2Dco0poeic/z4fNJwa8K/Laex81NPU3p2lbbJBc7FoG8oLiXwz1sNKQt2Ayy9dSovrDYP7crilaeA==",
+  "dgSpecHash": "7iF789fy6ge7M5eFHF2ExBNMxAreIJdRMZ0AF9CjBcfFY5afhRnzy06SrHHkjGM42KOmErwutqHjA1fA1eYjFA==",
   "success": true,
-  "projectFilePath": "G:\\TestSpace\\CPPTest\\PInvokeTest\\MyConsoleApp\\MyCSharpClient\\MyCSharpClient.csproj",
+  "projectFilePath": "G:\\TestSpace\\CPPTest\\workspace\\trunk\\MyCSharpClient\\MyCSharpClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

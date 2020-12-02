@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>G:\TestSpace\CPPTest\PInvokeTest\MyConsoleApp\x64\Debug\CPPDemoDll.dll</FullPath>
+      <FullPath>G:\TestSpace\CPPTest\workspace\trunk\x64\Debug\CPPDemoDll.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

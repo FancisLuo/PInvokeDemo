@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\TestSpace\\CPPTest\\PInvokeTest\\MyConsoleApp\\MyCSharpClient\\MyCSharpClient.csproj",
+      "projectUniqueName": "G:\\TestSpace\\CPPTest\\workspace\\trunk\\MyCSharpClient\\MyCSharpClient.csproj",
       "projectName": "MyCSharpClient",
-      "projectPath": "G:\\TestSpace\\CPPTest\\PInvokeTest\\MyConsoleApp\\MyCSharpClient\\MyCSharpClient.csproj",
+      "projectPath": "G:\\TestSpace\\CPPTest\\workspace\\trunk\\MyCSharpClient\\MyCSharpClient.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "G:\\TestSpace\\CPPTest\\PInvokeTest\\MyConsoleApp\\MyCSharpClient\\obj\\",
+      "outputPath": "G:\\TestSpace\\CPPTest\\workspace\\trunk\\MyCSharpClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
