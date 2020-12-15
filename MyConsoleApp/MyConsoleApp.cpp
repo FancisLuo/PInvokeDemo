@@ -2,11 +2,49 @@
 //
 
 #include <iostream>
+#include <type_traits>
+#include <unordered_map>
+#include <functional>
 
 #include "DllInterface.h"
 
+using delegate_emplace = std::function<void*(std::uint32_t, void*)>;
+
+enum class StructID: std::uint32_t
+{
+    None = 0,
+    NoMemberStruct = 1,
+};
+
+struct NoMemberStruct
+{
+};
+
+template<typename Component>
+void AddMember(std::uint32_t id)
+{
+    RegisterMember(id, [](std::uint32_t id, void* pData) -> void* {
+        if (pData)
+        {
+            Component com = *(Component*)pData;
+
+            return nullptr;
+        }
+        });
+}
+
+std::unordered_map<std::uint32_t, delegate_emplace> emplaceList;
+
+void RegisterMember(std::uint32_t id, delegate_emplace&& emplacer)
+{
+    emplaceList[id] = emplacer;
+}
+
 int main()
 {
+    std::uint32_t v = (std::underlying_type<StructID>::type)StructID::NoMemberStruct;
+    AddMember<NoMemberStruct>(v);
+
     std::cout << Add(3, 4) << std::endl;
     std::cout << "Hello World!\n";
 }
