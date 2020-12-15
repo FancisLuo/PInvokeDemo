@@ -40,12 +40,43 @@ void RegisterMember(std::uint32_t id, delegate_emplace&& emplacer)
     emplaceList[id] = emplacer;
 }
 
+// ====================================== enum class test ====================================================
+
+enum class TestColorType : std::uint32_t
+{
+    None = 0,
+    Red = 1,
+    Blue = 2,
+    Yellow = 3,
+};
+
+class BaseClass
+{
+public:
+    void ShowColorType();
+
+protected:
+    virtual TestColorType getColorType();
+};
+
+class DerivedClass : public BaseClass
+{
+protected:
+    TestColorType getColorType() override;
+};
+
+// ====================================== enum class test ====================================================
+
 int main()
 {
-    std::uint32_t v = (std::underlying_type<StructID>::type)StructID::NoMemberStruct;
-    AddMember<NoMemberStruct>(v);
+    //std::uint32_t v = (std::underlying_type<StructID>::type)StructID::NoMemberStruct;
+    //AddMember<NoMemberStruct>(v);
 
-    std::cout << Add(3, 4) << std::endl;
+    //std::cout << Add(3, 4) << std::endl;
+
+    DerivedClass base;
+    base.ShowColorType();
+
     std::cout << "Hello World!\n";
 }
 
@@ -59,3 +90,19 @@ int main()
 //   4. 使用错误列表窗口查看错误
 //   5. 转到“项目”>“添加新项”以创建新的代码文件，或转到“项目”>“添加现有项”以将现有代码文件添加到项目
 //   6. 将来，若要再次打开此项目，请转到“文件”>“打开”>“项目”并选择 .sln 文件
+
+void BaseClass::ShowColorType()
+{
+    TestColorType color = getColorType();
+    std::cout << static_cast<std::underlying_type<TestColorType>::type>(color) << std::endl;
+}
+
+TestColorType BaseClass::getColorType()
+{
+    return TestColorType::Blue;
+}
+
+TestColorType DerivedClass::getColorType()
+{
+    return TestColorType::Yellow;
+}
