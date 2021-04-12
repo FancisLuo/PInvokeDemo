@@ -5,10 +5,14 @@
 #include <type_traits>
 #include <unordered_map>
 #include <functional>
+#include <vector>
 
 #include "DllInterface.h"
+#include "json.hpp"
 
 using delegate_emplace = std::function<void*(std::uint32_t, void*)>;
+
+using json = nlohmann::json;
 
 enum class StructID: std::uint32_t
 {
@@ -74,8 +78,26 @@ int main()
 
     //std::cout << Add(3, 4) << std::endl;
 
-    DerivedClass base;
-    base.ShowColorType();
+    //DerivedClass base;
+    //base.ShowColorType();
+
+    // ============================json=================================
+
+	json jsonObject = {
+		{"pi", 3.1415},
+		{"happy", true},
+		{"name", "Niels"},
+		{"answer", {"everything", 42}},
+		{"list", {1, 0, 2}},
+		{"object", {{"currency", "USD"}, {"value", 42.99}}}
+	};
+
+    std::cout << jsonObject.at("/list/2"_json_pointer) << std::endl;
+    std::cout << jsonObject["list"] << std::endl;
+    std::vector<int> getList = jsonObject["list"];
+    std::vector<int> getListAt = jsonObject.at("list");
+
+    // ============================json=================================
 
     std::cout << "Hello World!\n";
 }
